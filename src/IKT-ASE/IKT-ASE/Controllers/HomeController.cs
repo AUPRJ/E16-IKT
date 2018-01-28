@@ -28,5 +28,9 @@ namespace IKTASE.Controllers
         {
             return View();
         }
+        public ViewResult Links()
+        {
+            return View();
+        }
     }
 }
