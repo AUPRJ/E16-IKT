@@ -16,7 +16,6 @@ namespace IKT_ASE
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -24,8 +23,11 @@ namespace IKT_ASE
         {
             if (env.IsDevelopment())
             {
+                app.UseBrowserLink();
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseStaticFiles();
 
             app.UseMvc(routes =>
             {

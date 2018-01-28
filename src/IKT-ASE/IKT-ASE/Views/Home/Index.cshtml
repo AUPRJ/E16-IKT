@@ -1,40 +1,12 @@
-﻿@{
-    Layout = null;
+﻿@model object
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
 }
 
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>IKT - ASE Overview</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<body class="bg-dark text-light">
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    <div class="container mt-5">
-        <div class="text-center">
-            <h1 class="">IKT - ASE Overview</h1>
-        </div>
-        <div class="text-center">
-            <h5 class="">4. Semester</h5>
-        </div>
+<div class="container mt-5">
+    <div>
         <div class="row mt-3">
             <h3>Books</h3>
         </div>
@@ -44,313 +16,304 @@
         <div class="row">
             <p>Work in progress</p>
         </div>
-        <div class="row">
-            <ol>
-                <li>
-                    <span style="color: rgb(11, 194, 11)">
-                        <i class="fa fa-check" aria-hidden="true"></i>
-                    </span>
-                    <a target="_blank" href="https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly-ebook/dp/B00AA36RZY/ref=mt_kindle?_encoding=UTF8&me=">
-                        Head First Design Patterns
-                    </a>
-
-                </li>
-
-                <li>
-                    <span style="color: rgb(11, 194, 11)">
-                        <i class="fa fa-check" aria-hidden="true"></i>
-                    </span>
-
-                    <a target="_blank" href="https://www.amazon.com/Database-Modeling-Design-Fifth-Management/dp/0123820200">
-                        Database Modeling and Design
-                    </a>
-                    <ol>
-                        <li>
-                            <span style="color: rgb(236, 35, 35);">
-                                <i class="fa fa-times" aria-hidden="true"></i>
-                            </span>
-                            <a target="_blank" href="https://www.packtpub.com/big-data-and-business-intelligence/learning-azure-documentdb">
-                                Learning Azure DocumentDB
-                            </a>
-                        </li>
-                    </ol>
-                </li>
-                <li>
-                    <span style="color: rgb(11, 194, 11)">
-                        <i class="fa fa-check" aria-hidden="true"></i>
-                    </span>
-                    <a target="_blank" href="https://www.apress.com/us/book/9781430243656">
-                        Pro WPF 4.5 in C#. Windows Presentation Foundation in .NET
-                    </a>
-                </li>
-                <li>
-                    <span style="color: rgb(236, 35, 35);">
-                        <i class="fa fa-times" aria-hidden="true"></i>
-                    </span>
-                    <a target="_blank" href="">
-                        Computer Networking - A Top Down Approach
-                    </a>
-                </li>
-                <li>
-                    <span style="color: rgb(11, 194, 11)">
-                        <i class="fa fa-check" aria-hidden="true"></i>
-                    </span>
-                    <a target="_blank" href="">
-                        Art of Unit Testing with Examples in C#
-                    </a>
-                </li>
-                <!-- <li>
-
-                    <a target="_blank" href=""></a>
-                </li> -->
-
-            </ol>
-        </div>
     </div>
+    <div class="row">
+        <ol>
+            <li>
+                <span style="color: rgb(11, 194, 11)">
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                </span>
+                <a target="_blank" href="https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly-ebook/dp/B00AA36RZY/ref=mt_kindle?_encoding=UTF8&me=">
+                    Head First Design Patterns
+                </a>
+
+            </li>
+
+            <li>
+                <span style="color: rgb(11, 194, 11)">
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                </span>
+
+                <a target="_blank" href="https://www.amazon.com/Database-Modeling-Design-Fifth-Management/dp/0123820200">
+                    Database Modeling and Design
+                </a>
+                <ol>
+                    <li>
+                        <span style="color: rgb(236, 35, 35);">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </span>
+                        <a target="_blank" href="https://www.packtpub.com/big-data-and-business-intelligence/learning-azure-documentdb">
+                            Learning Azure DocumentDB
+                        </a>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <span style="color: rgb(11, 194, 11)">
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                </span>
+                <a target="_blank" href="https://www.apress.com/us/book/9781430243656">
+                    Pro WPF 4.5 in C#. Windows Presentation Foundation in .NET
+                </a>
+            </li>
+            <li>
+                <span style="color: rgb(236, 35, 35);">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </span>
+                <a target="_blank" href="">
+                    Computer Networking - A Top Down Approach
+                </a>
+            </li>
+            <li>
+                <span style="color: rgb(11, 194, 11)">
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                </span>
+                <a target="_blank" href="">
+                    Art of Unit Testing with Examples in C#
+                </a>
+            </li>
+            <!-- <li>
+
+                <a target="_blank" href=""></a>
+            </li> -->
+
+        </ol>
+    </div>
+</div>
+<br>
+
+<div class="container">
+    <h2>Schedule</h2>
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">08-10</td>
+                    <td><abbr title="003B-S">DAB</abbr></td>
+                    <td><abbr title="009C-S & 013A-S">SWT</abbr></td>
+                    <td><abbr title="003B-S">GUI</abbr></td>
+                    <td><abbr title="009C-S & 013A-S">IKN</abbr></td>
+                    <td><abbr title="430E">DAB</abbr></td>
+
+                </tr>
+                <tr>
+                    <td scope="row">10-12</td>
+                    <td><abbr title="003B-S">GUI</abbr></td>
+                    <td></td>
+                    <td><abbr title="003B-S">SWD</abbr></td>
+                    <td><abbr title="009C-S & 013A-S">SWT</abbr></td>
+                    <td><abbr title="003B-S">SWD</abbr></td>
+                </tr>
+                <tr>
+                    <td scope="row">12-14</td>
+                    <td></td>
+                    <td><abbr title="Det Store IT Auditorium - Incuba">IKN</abbr></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<br>
+
+
+<!-- Lektions plan -->
+<div class="container">
+    <h2>Lecture Plan</h2>
     <br>
+    <div class="table-responsive">
 
-    <div class="container">
-        <h2>Schedule</h2>
-        <div class="table-responsive">
-            <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>Monday</th>
-                        <th>Tuesday</th>
-                        <th>Wednesday</th>
-                        <th>Thursday</th>
-                        <th>Friday</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td scope="row">08-10</td>
-                        <td><abbr title="003B-S">DAB</abbr></td>
-                        <td><abbr title="009C-S & 013A-S">SWT</abbr></td>
-                        <td><abbr title="003B-S">GUI</abbr></td>
-                        <td><abbr title="009C-S & 013A-S">IKN</abbr></td>
-                        <td><abbr title="430E">DAB</abbr></td>
-
-                    </tr>
-                    <tr>
-                        <td scope="row">10-12</td>
-                        <td><abbr title="003B-S">GUI</abbr></td>
-                        <td></td>
-                        <td><abbr title="003B-S">SWD</abbr></td>
-                        <td><abbr title="009C-S & 013A-S">SWT</abbr></td>
-                        <td><abbr title="003B-S">SWD</abbr></td>
-                    </tr>
-                    <tr>
-                        <td scope="row">12-14</td>
-                        <td></td>
-                        <td><abbr title="Det Store IT Auditorium - Incuba">IKN</abbr></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-    <br>
-
-
-    <!-- Lektions plan -->
-    <div class="container">
-        <h2>Lecture Plan</h2>
-        <br>
-        <div class="table-responsive">
-
-            <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <th>Week</th>
-                        <th>
-                            <a target="_blank" href="https://blackboard.au.dk/webapps/blackboard/content/listContent.jsp?course_id=_110670_1&content_id=_1649043_1">
-                                <i class="fa fa-home" aria-hidden="true"></i>
-                            </a>
-                            DAB
-                        </th>
-                        <th>
-                            <a target="_blank" href="https://blackboard.au.dk/webapps/stll-eddi-BBLEARN/landing?course_id=_110587_1&mode=view">
-                                <i class="fa fa-home" aria-hidden="true"></i>
-                            </a>
-                            GUI
-                        </th>
-                        <th>
-                            <a target="_blank" href="https://blackboard.au.dk/webapps/blackboard/execute/announcement?method=search&context=course_entry&course_id=_110675_1&handle=announcements_entry&mode=view">
-                                <i class="fa fa-home" aria-hidden="true"></i>
-                            </a>
-                            <a target="_blank" href="http://kurser.iha.dk/eit/it-dkt1/kursusplan_I4IKN_F2018.htm">IKN</a>
-                        </th>
-                        <th>
-                            <a target="_blank" href="https://blackboard.au.dk/webapps/blackboard/content/listContent.jsp?course_id=_110672_1&content_id=_1637484_1">
-                                <i class="fa fa-home" aria-hidden="true"></i>
-                            </a>
-                            <a target="_blank" href="https://blackboard.au.dk/bbcswebdav/pid-1637513-dt-content-rid-3705575_1/xid-3705575_1">SWD</a>
-                        </th>
-                        <th>
-                            <a target="_blank" href="https://blackboard.au.dk/webapps/blackboard/execute/announcement?method=search&context=course_entry&course_id=_110671_1&handle=announcements_entry&mode=view">
-                                <i class="fa fa-home" aria-hidden="true"></i>
-                            </a>
-                            SWT
-                        </th>
-                        <th>PRJ</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td scope="row">5/1</td>
-                        <td>Fucking forvirrende</td>
-                        <td>Introduction to .Net and C#, WPF intro, Delegates and events</td>
-                        <td>Introduktion til kurset </td>
-                        <td>
-                            Interfaces (Self-study) / Introduction to the course and agile software development / Week 01.2:
-                            OO Basics
-                        </td>
-                        <td>Introduktion til SWT + Unit Test</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td scope="row">6/2</td>
-                        <td></td>
-                        <td>XAML, Layout, WPF-Events </td>
-                        <td>Ch. 2. Application Layer</td>
-                        <td>Design smells + SOLID: SRP & OCP</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td scope="row">7/3</td>
-                        <td></td>
-                        <td>Controls, The Application, Data Binding and Commands</td>
-                        <td>Ch. 2. Application Layer (continued)</td>
-                        <td>SOLID: LSP, ISP & DIP</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td scope="row">8/4</td>
-                        <td></td>
-                        <td>Data Binding , Resources, Styles and Triggers</td>
-                        <td>Ch. 2. Application Layer (continued)</td>
-                        <td>Software design patterns / GoF Observer</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td scope="row">9/5</td>
-                        <td></td>
-                        <td>Formatting bound data, Grids, Settings and Multithreading</td>
-                        <td>Øvelse (hele ugen)</td>
-                        <td>Factory patterns / GoF Template method + GoF Strategy</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td scope="row">10/6</td>
-                        <td></td>
-                        <td>Windows and Dialogs. Shapes and Brushes</td>
-                        <td>Øvelse (hele ugen)</td>
-                        <td>State patterns: Switch/case state + GoF State / GoF State</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td scope="row">11/7</td>
-                        <td></td>
-                        <td>Visuals and Images, Control templates and Custom Controls</td>
-                        <td>Ch. 3. Transport Layer</td>
-                        <td>GUI Patterns Intro + MVC / GUI Patterns MVP + MVVM + GUI Exercise</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td scope="row">12/8</td>
-                        <td></td>
-                        <td>UWP Apps</td>
-                        <td>Ch. 3. Transport Layer (continued)</td>
-                        <td>Mandatory GUI exercise</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr class="bg-light">
-                        <td scope="row">13/9</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td scope="row">14/9</td>
-                        <td></td>
-                        <td>HTML5 and CSS3</td>
-                        <td>Ch. 4. Networking Layer & Routing</td>
-                        <td>Software Architecture: Key concepts / - Process + Documentation</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td scope="row">15/10</td>
-                        <td></td>
-                        <td>ASP.Net Core MVC</td>
-                        <td>Ch. 6. Link Layer</td>
-                        <td>Mandatory Design Pattern exercise</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td scope="row">16/11</td>
-                        <td></td>
-                        <td>JavaScript and Web.API</td>
-                        <td>Øvelse (hele ugen)</td>
-                        <td>Mandatory Design Pattern exercise / Parallel programming - Threads</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td scope="row">17/12</td>
-                        <td></td>
-                        <td>JavaScript</td>
-                        <td>Øvelse (hele ugen)</td>
-                        <td>Parallel Loops/Tasks</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td scope="row">18/13</td>
-                        <td></td>
-                        <td>Bootstrap and responsive design</td>
-                        <td>Øvelse (hele ugen)</td>
-                        <td>Parallel Aggregation and MapReduce / Dependencies & Futures</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td scope="row">19/14</td>
-                        <td></td>
-                        <td>Angular</td>
-                        <td>Øvelse (hele ugen)</td>
-                        <td>Pipelines / Final questions and evaluation</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <h5 class="text-center">I do not take any responsibility for missed deadlines or wrong schedules. Use this site at your own risk</h5>
-        <br />
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Week</th>
+                    <th>
+                        <a target="_blank" href="https://blackboard.au.dk/webapps/blackboard/content/listContent.jsp?course_id=_110670_1&content_id=_1649043_1">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                        </a>
+                        DAB
+                    </th>
+                    <th>
+                        <a target="_blank" href="https://blackboard.au.dk/webapps/stll-eddi-BBLEARN/landing?course_id=_110587_1&mode=view">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                        </a>
+                        GUI
+                    </th>
+                    <th>
+                        <a target="_blank" href="https://blackboard.au.dk/webapps/blackboard/execute/announcement?method=search&context=course_entry&course_id=_110675_1&handle=announcements_entry&mode=view">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                        </a>
+                        <a target="_blank" href="http://kurser.iha.dk/eit/it-dkt1/kursusplan_I4IKN_F2018.htm">IKN</a>
+                    </th>
+                    <th>
+                        <a target="_blank" href="https://blackboard.au.dk/webapps/blackboard/content/listContent.jsp?course_id=_110672_1&content_id=_1637484_1">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                        </a>
+                        <a target="_blank" href="https://blackboard.au.dk/bbcswebdav/pid-1637513-dt-content-rid-3705575_1/xid-3705575_1">SWD</a>
+                    </th>
+                    <th>
+                        <a target="_blank" href="https://blackboard.au.dk/webapps/blackboard/execute/announcement?method=search&context=course_entry&course_id=_110671_1&handle=announcements_entry&mode=view">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                        </a>
+                        SWT
+                    </th>
+                    <th>PRJ</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">5/1</td>
+                    <td>Fucking forvirrende</td>
+                    <td>Introduction to .Net and C#, WPF intro, Delegates and events</td>
+                    <td>Introduktion til kurset </td>
+                    <td>
+                        Interfaces (Self-study) / Introduction to the course and agile software development / Week 01.2:
+                        OO Basics
+                    </td>
+                    <td>Introduktion til SWT + Unit Test</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td scope="row">6/2</td>
+                    <td></td>
+                    <td>XAML, Layout, WPF-Events </td>
+                    <td>Ch. 2. Application Layer</td>
+                    <td>Design smells + SOLID: SRP & OCP</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td scope="row">7/3</td>
+                    <td></td>
+                    <td>Controls, The Application, Data Binding and Commands</td>
+                    <td>Ch. 2. Application Layer (continued)</td>
+                    <td>SOLID: LSP, ISP & DIP</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td scope="row">8/4</td>
+                    <td></td>
+                    <td>Data Binding , Resources, Styles and Triggers</td>
+                    <td>Ch. 2. Application Layer (continued)</td>
+                    <td>Software design patterns / GoF Observer</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td scope="row">9/5</td>
+                    <td></td>
+                    <td>Formatting bound data, Grids, Settings and Multithreading</td>
+                    <td>Øvelse (hele ugen)</td>
+                    <td>Factory patterns / GoF Template method + GoF Strategy</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td scope="row">10/6</td>
+                    <td></td>
+                    <td>Windows and Dialogs. Shapes and Brushes</td>
+                    <td>Øvelse (hele ugen)</td>
+                    <td>State patterns: Switch/case state + GoF State / GoF State</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td scope="row">11/7</td>
+                    <td></td>
+                    <td>Visuals and Images, Control templates and Custom Controls</td>
+                    <td>Ch. 3. Transport Layer</td>
+                    <td>GUI Patterns Intro + MVC / GUI Patterns MVP + MVVM + GUI Exercise</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td scope="row">12/8</td>
+                    <td></td>
+                    <td>UWP Apps</td>
+                    <td>Ch. 3. Transport Layer (continued)</td>
+                    <td>Mandatory GUI exercise</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="bg-light">
+                    <td scope="row">13/9</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td scope="row">14/9</td>
+                    <td></td>
+                    <td>HTML5 and CSS3</td>
+                    <td>Ch. 4. Networking Layer & Routing</td>
+                    <td>Software Architecture: Key concepts / - Process + Documentation</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td scope="row">15/10</td>
+                    <td></td>
+                    <td>ASP.Net Core MVC</td>
+                    <td>Ch. 6. Link Layer</td>
+                    <td>Mandatory Design Pattern exercise</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td scope="row">16/11</td>
+                    <td></td>
+                    <td>JavaScript and Web.API</td>
+                    <td>Øvelse (hele ugen)</td>
+                    <td>Mandatory Design Pattern exercise / Parallel programming - Threads</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td scope="row">17/12</td>
+                    <td></td>
+                    <td>JavaScript</td>
+                    <td>Øvelse (hele ugen)</td>
+                    <td>Parallel Loops/Tasks</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td scope="row">18/13</td>
+                    <td></td>
+                    <td>Bootstrap and responsive design</td>
+                    <td>Øvelse (hele ugen)</td>
+                    <td>Parallel Aggregation and MapReduce / Dependencies & Futures</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td scope="row">19/14</td>
+                    <td></td>
+                    <td>Angular</td>
+                    <td>Øvelse (hele ugen)</td>
+                    <td>Pipelines / Final questions and evaluation</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
-    <footer id="fw-footer">
-        <div class="text-light">
-            <p style="text-align:center;"><small>&COPY; HermansenDesigns &hyphen; 2018</small></p>
-        </div>
-    </footer>
-</body>
 
-</html>
+</div>

@@ -13,5 +13,20 @@ namespace IKTASE.Controllers
         {
             return View();
         }
+
+        public ViewResult Books()
+        {
+            return View();
+        }
+
+        public ViewResult LecturePlan()
+        {
+            return View();
+        }
+
+        public ViewResult Schedule()
+        {
+            return View();
+        }
     }
 }
