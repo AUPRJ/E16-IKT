@@ -1,7 +1,7 @@
 ﻿@model object
 
 @{
-    ViewBag.Title = "DAB";
+    ViewBag.Title = "MISC";
     Layout = "_Layout";
 }
 
@@ -16,67 +16,16 @@
     <div class="col-sm-2">
         <!-- Nav pills -->
         <ul class="nav nav-pills flex-column">
-            <li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#lecture01">Lecture 1</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#lecture02">Lecture 2</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#lecture03">Lecture 3</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#lecture04">Lecture 4</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#lecture05">Lecture 5</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#lecture06">Lecture 6</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#lecture07">Lecture 7</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#lecture08">Lecture 8</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#lecture09">Lecture 9</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#lecture10">Lecture 10</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#lecture11">Lecture 11</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#lecture12">Lecture 12</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#lecture13">Lecture 13</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#lecture14">Lecture 14</a></li>
+            <li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#compiling-C#">Compiling C#</a></li>
+
 
         </ul>
     </div>
     <div class="col-sm-10">
         <!-- Tab panes -->
         <div class="tab-content">
-            <div class="tab-pane active container" id="lecture01">
-                @Html.Partial("Lecture01")
-            </div>
-            <div class="tab-pane container" id="lecture02">
-                @Html.Partial("Lecture02")
-            </div>
-            <div class="tab-pane container" id="lecture03">
-                @Html.Partial("Lecture03")
-            </div>
-            <div class="tab-pane container" id="lecture04">
-                @Html.Partial("Lecture04")
-            </div>
-            <div class="tab-pane container" id="lecture05">
-                @Html.Partial("Lecture05")
-            </div>
-            <div class="tab-pane container" id="lecture06">
-                @Html.Partial("Lecture06")
-            </div>
-            <div class="tab-pane container" id="lecture07">
-                @Html.Partial("Lecture07")
-            </div>
-            <div class="tab-pane container" id="lecture08">
-                @Html.Partial("Lecture08")
-            </div>
-            <div class="tab-pane container" id="lecture09">
-                @Html.Partial("Lecture09")
-            </div>
-            <div class="tab-pane container" id="lecture10">
-                @Html.Partial("Lecture10")
-            </div>
-            <div class="tab-pane container" id="lecture11">
-                @Html.Partial("Lecture11")
-            </div>
-            <div class="tab-pane container" id="lecture12">
-                @Html.Partial("Lecture12")
-            </div>
-            <div class="tab-pane container" id="lecture13">
-                @Html.Partial("Lecture13")
-            </div>
-            <div class="tab-pane container" id="lecture14">
-                @Html.Partial("Lecture14")
+            <div class="tab-pane active container" id="compiling-C#">
+                @await Html.PartialAsync("compiling-C#")
             </div>
         </div>
     </div>

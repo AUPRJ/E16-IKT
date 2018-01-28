@@ -1,0 +1,91 @@
+﻿<!-- Template -->
+<!-- <div class="card">
+  <img class="card-img-top" src="holder.js/100x180/" alt="">
+  <div class="card-body text-dark">
+    <h4 class="card-title">Lecture 01</h4>
+    <p class="card-text">Text</p>
+  </div>
+</div> -->
+
+<div class="card">
+    <img class="card-img-top" src="holder.js/100x180/" alt="">
+    <div class="card-body text-dark">
+        <h4 class="card-title">Compiling C# in Visual Studio 2017 and Visual Studio Code</h4>
+        <p class="card-text">
+            C# Compiles the same way that you are used to, at least it is so in Visual Studio 2017 (VS2017),
+            Visual Studio Code (VSCode) works a bit different, as it utilizes the CLI (Command-line interface) to create, build
+            and run the projects.
+        </p>
+
+        <p>First of all, what is the difference between VS2017 and VSCode?</p>
+
+        <ul>
+            <li>
+                <h5>VS2017</h5>
+                <p>A fully featured IDE; deep integration with various tools such as Intellisence, SQLDB & and lot of their utilities</p>
+            </li>
+            <li>
+                <h5>VSCode</h5>
+                <p>A Lightweight Code editor; with Intellisense integration and a built in Terminal</p>
+            </li>
+        </ul>
+        <p>What these two environments have in common is that they both provide support for plug-ins, though VSCode is by far the best supported.</p>
+
+        <p><strong>Lets get into it.</strong></p>
+
+        <h6>Compiling with VS2017</h6>
+        <p>
+            Go to "File <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Project <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Open the Installed pane <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Press the Visual C# pane <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Choose either the lightweight "Console App" (.Net Core) or the heavy-duty "Console App" (.Net Framework) <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Press Okay
+        </p>
+
+        <p>If you've chosen Console App (.Net Core) your screen should look like this: </p>
+        <img class="img-fluid mb-3" src="~/images/Misc/dotNetCoreConsoleStart.PNG" />
+        <p>To Build (Ctrl+Shift+B) the project choose Build <i class="fa fa-arrow-right" aria-hidden="true"></i> Build Solution</p>
+        <img class="img-fluid mb-3" src="~/images/Misc/dotNetCoreConsoleBuild.PNG" />
+        <p>To Run (Ctrl+F5) the project choose Debug <i class="fa fa-arrow-right" aria-hidden="true"></i> Start Without Debugging</p>
+        <img class="img-fluid mb-3" src="~/images/Misc/dotNetCoreConsoleRun.PNG" />
+        <p>To Debug (F5) the project choose Debug <i class="fa fa-arrow-right" aria-hidden="true"></i> Start Debugging</p>
+        <img class="img-fluid mb-3" src="~/images/Misc/dotNetCoreConsoleDebug.PNG" />
+
+        <p>That is how you build, run and debug in VS2017</p>
+
+        <h6>Compiling with VSCode</h6>
+        <p>
+            Add a folder to a VSCode, Right-Click on the explorer pane (Ctrl+Shift+E)<i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Choose "Add Folder to Workspace" <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Navigate to a choosen folder, you can also add a folder [ex. "C:\Users\Dreli\Desktop\test>"]<i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Right-Click on the choosen folder and press on "Open in Terminal" <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            In the terminal (View <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Integrated terminal) type "dotnet new console"<i class="fa fa-arrow-right" aria-hidden="true"></i>Press Okay.
+            Program.cs should now be visible in the explorer<i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </p>
+
+        <p>To use the built in debugger</p>
+        <p>If you've chosen Console App (.Net Core) your screen should look like this (Minus the extra folders): </p>
+        <img class="img-fluid mb-3" src="~/images/Misc/dotNetCoreConsoleStartCode.PNG" />
+        <p>To Build (Ctrl+Shift+B) the project choose Tasks <i class="fa fa-arrow-right" aria-hidden="true"></i> Run Build Task</p>
+        <img class="img-fluid mb-3" src="~/images/Misc/dotNetCoreConsoleBuildCode.PNG" />
+        <p>To Run (Ctrl+F5) the project choose Debug <i class="fa fa-arrow-right" aria-hidden="true"></i> Start Without Debugging</p>
+        <img class="img-fluid mb-3" src="~/images/Misc/dotNetCoreConsoleRunCode.PNG" />
+        <p>To Debug (F5) the project choose Debug <i class="fa fa-arrow-right" aria-hidden="true"></i> Start Debugging</p>
+        <img class="img-fluid mb-3" src="~/images/Misc/dotNetCoreConsoleDebugCode.PNG" />
+
+        <p>
+            Do note that for these above to work, the folder with the program has to be the only folder in the workspace,
+            and it has to contain a .vscode folder, which is generated upon the first debug
+        </p>
+
+        <p>Running with the CLI</p>
+        <p>To Run (dotnet run) the project type "dotnet run" in the terminal, which is at the root folder of the project</p>
+        <img class="img-fluid mb-3" src="~/images/Misc/dotNetCoreConsoleRunCodeCLI.PNG" />
+
+        <p>That is how you build, run and debug in VSCode</p>
+
+
+    </div>
+</div>
