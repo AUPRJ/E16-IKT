@@ -32,5 +32,10 @@ namespace IKTASE.Controllers
         {
             return View();
         }
+
+        public ViewResult Contact()
+        {
+            return View();
+        }
     }
 }
