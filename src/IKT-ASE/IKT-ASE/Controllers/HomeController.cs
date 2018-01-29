@@ -37,5 +37,10 @@ namespace IKTASE.Controllers
         {
             return View();
         }
+
+        public ViewResult Assignments()
+        {
+            return View();
+        }
     }
 }
